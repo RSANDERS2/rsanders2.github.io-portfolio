@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background.JPEG);
+    text-align: center;
+}
+
+header {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+}
+
+#logo {
+    font-size: xx-large;
+    background-color: black;
+    padding-right:10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: whitesmoke;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+nav {
+    float: right;
+    padding-top: 42px;
+
+    
+}
+
+nav ul {
+    list-style-type: none;
+    
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-left: 20px;
+    
+}
+
+#bio {
+    padding-top: 220px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+#work {
+    padding-bottom: 75px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+#contact {
+    padding-bottom: 75px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
+
+h1 {
+    background-color: black;
+    width: 250px;
+
+}
+
+p,
+h3 {
+    text-shadow: 2px 0 0 white;
+    font-weight: bold;
+    color:darkviolet
+}
