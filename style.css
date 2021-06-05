@@ -88,7 +88,7 @@ h1 {
 
 p,
 h3 {
-    text-shadow: 2px 0 0 white;
+    text-shadow: 2px 0 5px white;
     font-weight: bold;
-    color:darkviolet
+    color: black
 }
