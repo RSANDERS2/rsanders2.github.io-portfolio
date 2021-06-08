@@ -1,4 +1,5 @@
-# rsanders2.github.io-portfolio
+# rsanders2.github.io-portfolio   
+
 02 Advanced CSS: Portfolio     
 The  assignment  was  to create a web application from scratch that resembles a portfolio page    
 The core skills involved in create the page included FLEXBOX, MEDIA QUERIES and CSS    
