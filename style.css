@@ -10,8 +10,12 @@ body {
     font-family:cursive;
 }
 
-section {
-    background-color: white;
+/* header */
+
+.logo {
+    height: 175px;
+    width: 125px;
+    margin: 15px;
 }
 
 .hero {
@@ -25,12 +29,6 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-
-.logo {
-    height: 175px;
-    width: 125px;
-    margin: 15px;
 }
 
 ul {
@@ -50,6 +48,12 @@ li {
 h1 {
     font-size: 60px;
     margin: 0;
+}
+
+/* main */
+
+section {
+    background-color: white;
 }
 
 h2 {
@@ -107,18 +111,18 @@ a {
     padding-top: 100px;
 }
 
-.headshot {
-    width: 250px;
-    border-radius: 150px;
-    margin-top: 50px;
-}
-
 .project-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 100px;
+}
+
+.headshot {
+    width: 250px;
+    border-radius: 150px;
+    margin-top: 50px;
 }
 
 .project-image {
@@ -133,12 +137,16 @@ a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* footer */
+
 footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 80px;
 }
+
+/* media queries */
 
 @media only screen and (min-width: 768px) {
     .project-container {
