@@ -7,7 +7,11 @@
 }
 
 body {
-    font-family:cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+p {
+    padding-top: 50px;
 }
 
 /* header */
@@ -139,15 +143,20 @@ a {
 }
 
 .project-image {
-    width: 300px;
-    border-radius: 175px;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
     margin-top: 30px;
     
 }
 
 .project-image:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    padding-top: 20px;
 }
 
 /* footer */
@@ -157,6 +166,14 @@ footer {
     color: white;
     text-align: center;
     padding: 80px;
+}
+
+#email-link {
+    padding-bottom: 50px;
+}
+
+#linkedIn-link {
+    padding-bottom: 50px;
 }
 
 /* media queries */
@@ -173,10 +190,6 @@ footer {
         display: flex;
         flex-direction: column;
         
-    }
-
-    .footer-email {
-        font-size: 15px;
     }
 }
 
