@@ -108,19 +108,11 @@ a {
     padding: 80px;
 }
 
-.headshot-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 100px;
-}
-
 .project-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px;
 }
 
 .headshot {
