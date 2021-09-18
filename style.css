@@ -115,7 +115,7 @@ a {
     align-items: center;
 }
 
-.headshot {
+#headshot {
     width: 50px;
     margin-top: 50px;
 }
